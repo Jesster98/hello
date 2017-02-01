@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails',          '5.0.1'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
@@ -8,6 +8,8 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'bootstrap-sass', '3.3.6'
+
 
 group :development, :test do
   gem 'sqlite3'
@@ -19,6 +21,7 @@ group :development do
   gem 'listen'
   gem 'spring'
   gem 'spring-watcher-listen'
+  gem 'brakeman'
 end
 
 group :production do
